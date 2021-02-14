@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-image: url(gurkirat.jpg);
+			background-size: 100vw;
+			font-family: sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+		.text{
+			font-size: 50px;
+		}
+		.content{
+			display: flex;
+			margin-top: 170px;
+			width: 950px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.time{
+			text-align: center;
+			width: 300px;
+		}
+		.time span{
+			font-size: 20px;
+		}
+        .date{margin-top: 100px;
+        	text-align: center;}
+
+	</style></head>
+
+
+<body>
+    
+    <form class="date">
+  <label for="countdate">Select a date:-</label>
+  <input type="date" id="countdate" name="countdate">
+  <input type="submit">
+</form>
+
+
+	<div class="content">
+		
+		<div class="time hours">
+			<p class="text" id="hour">0</p>
+			<span>Hours</span>
+		</div>
+
+		<div class="time minutes">
+			<p class="text" id="minu">0</p>
+			<span>Minutes</span>
+		</div>
+		
+		<div class="time seconds">
+			<p class="text" id="sec">0</p>
+			<span>Seconds</span>
+		</div>
+		
+		<div class="time days">
+			<p class="text" id="day">0</p>
+			<span>Days</span>
+		</div>
+	
+	</div>
+	<script src="gurkirat.js"></script>
+
+
+</body>
+</html>
+
+
